@@ -317,7 +317,7 @@ h3{
     box-sizing: border-box;
 }
 
-/*DONATE SECTION*/
+
 .row2 .donate-col{
     flex-basis: 48%;
     background: #ececec;
@@ -327,8 +327,32 @@ h3{
     box-sizing: border-box;
 }
 
-.fa-brands{
+.row2 .fa-brands{
     font-size: 50px;
+}
+
+.row2 .fa-solid{
+    font-size: 50px;
+}
+
+
+.card-donations-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: #ffc439;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.card-donations-btn:hover{
+    border: 1px solid #000000;
+    background-color: #ffb300;
+    transition: 0.5s;
 }
 
 
