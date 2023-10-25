@@ -304,6 +304,9 @@ h3{
 
 
 
+
+
+
 /*DONATE SECTION*/
 .row1 .donate-col{
     flex-basis: 95%;
@@ -312,7 +315,20 @@ h3{
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
-    
+}
+
+/*DONATE SECTION*/
+.row2 .donate-col{
+    flex-basis: 48%;
+    background: #ececec;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.fa-brands{
+    font-size: 50px;
 }
 
 
