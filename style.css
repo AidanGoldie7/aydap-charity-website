@@ -304,6 +304,19 @@ h3{
 
 
 
+/*DONATE SECTION*/
+.row1 .donate-col{
+    flex-basis: 95%;
+    background: #ececec;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    
+}
+
+
+
 
 
 
