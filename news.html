@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AYDAP Scotland - News</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <!--link to allow icon names to be input and interpreted-->
+        <script src="https://kit.fontawesome.com/93650f76d6.js" crossorigin="anonymous"></script>
+</head>
+    </head>
+
+
+
+    <body>
+        <section class="sub-header">
+            <!--NAVIGATION BAR-->
+            <nav>
+                <a href="index.html"><img src ="images/aydaplogo.png"></a>
+                <div class ="nav-links" id="navLinks">
+                    <!--Inserting Close Button for smaller screen nav bar-->
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="donate.html">DONATE</a></li>
+                        
+                    </ul>
+                </div>
+                <!--bars icon for smaller screen nav bar-->
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+
+            <div class = "text-box">
+                <h1>NEWS</h1>
+            </div>
+        </section>
+
+
+
+        <!--ABOUT US SECTION-->
+        <section class="about">
+            <h1>The Latest on AYDAP Scotlands Project</h1>
+            <hr>
+            <div class="row1">
+                <div class="donate-col">
+                    <p>At September the school has 6 teachers and a principal, 100 children and kindergarten,  4 classrooms, toilets, water supply, and is part of the Liberian Government feeding programme. <br><br>
+
+                        A teacher training programme is taking place funded by Friends of Liberia.</p>
+            </div>
+<br>
+           
+    </section>
+
+
+
+
+
+        <!-- FOOTER SECTION -->
+        <section class="footer">
+        
+        </section>
+
+
+
+        <!--JavaScript for Toggle Menu-->
+        <script>
+
+            var navLinks = document.getElementById("navLinks")
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+
+
+
+</html>
